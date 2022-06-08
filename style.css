@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(3, 85, 162);
+    width: 400px;
+    height: 620px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 8px black;
+}
+
+.display{
+    background-color:rgb(208, 208, 200);
+    border: 5px inset rgb(45, 44, 44);
+    width: 300px;
+    height: 60px;
+    margin: 40px 20px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 50px;
+}
+
+.topContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-bottom: 2px inset rgb(2, 47, 89);
+    border-top: 2px inset rgb(2, 47, 89);
+    padding: 20px 0px;
+}
+
+.solarPanel{
+    display: flex;
+    margin-right: 70px;
+    border: inset black;
+    margin-left: 40px;
+}
+.panel {
+    width: 33px;
+    height: 40px;
+    background-color: rgb(48, 48, 48);
+    border: 1px solid black;
+}
+
+.brandLabel {
+    display: flex;
+    color: rgb(208, 208, 200);
+    font-size: x-large;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.buttons{
+    display: flex;
+    width: 360px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.leftButtons {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+.number {
+    display: flexbox;
+    background-color: whitesmoke;
+    width: 65px;
+    height: 50px;
+    box-shadow: 4px 4px black;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.number:hover {
+    box-shadow: none;
+}
+
+.operator {
+    display: flexbox;
+    background-color: rgb(201,4,20);
+    width: 65px;
+    height: 50px;
+    box-shadow: 4px 4px black;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(208, 208, 200);
+}
+
+.operator:hover {
+    box-shadow: none;
+}
+
+.rightButtons {
+    display: flex;
+    flex-direction: column;
+}
+
