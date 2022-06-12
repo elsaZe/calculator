@@ -234,7 +234,7 @@ const clear = document.getElementById('clear');
 clear.addEventListener('click', () => {
     temp = undefined;
     currentNumber = ''
-    updateDisplay(currentNumber)})
+    updateDisplay(0)})
 
 
 function operate() {
