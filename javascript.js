@@ -258,10 +258,13 @@ function operate() {
         temp = product;
         currentNumber = ''
     } else if (operation == 'divide'){
-        quotient = divide(currentNumber, temp);
-        updateDisplay(quotient);
-        temp = quotient;
-        currentNumber = ''
+        if (currentNumber == 0) {
+            display.textContent = "Undefined"
+        } else if (currentNumber != 0) {
+            quotient = divide(currentNumber, temp);
+            updateDisplay(quotient);
+             temp = quotient;
+            currentNumber = ''}
     } else if (operation == 'percent') {
         numToPercent = percent(currentNumber)
         updateDisplay(numToPercent+'%')

@@ -85,9 +85,11 @@ body {
     font-weight: bold;
 }
 
-.number:hover {
+.number:active {
     box-shadow: none;
+    transition: 0.3s;
 }
+
 
 .operator {
     display: flexbox;
@@ -102,8 +104,9 @@ body {
     color: rgb(208, 208, 200);
 }
 
-.operator:hover {
+.operator:active {
     box-shadow: none;
+    transition: 0.3s;
 }
 
 .rightButtons {
